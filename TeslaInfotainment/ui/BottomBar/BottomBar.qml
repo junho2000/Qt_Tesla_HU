@@ -19,7 +19,7 @@ Rectangle{
         }
         height:parent.height*.6
         fillMode:Image.PreserveAspectFit
-        source:"file:/home/jetson/TeslaInfotainment/ui/assets/sedan-car-front.png"
+        source:"file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/sedan-car-front.png"
     }
     HVACComponent{
         id:driverHVACControl

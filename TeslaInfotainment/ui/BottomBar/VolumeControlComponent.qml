@@ -53,11 +53,11 @@ Item {
         }
         source: {
             if(audioController.volumeLevel <= 1)
-                return "file:/home/jetson/TeslaInfotainment/ui/assets/mute.png"
+                return "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/mute.png"
             else if(audioController.volumeLevel <= 50)
-                return "file:/home/jetson/TeslaInfotainment/ui/assets/volume1.png"
+                return "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/volume1.png"
             else
-                return "file:/home/jetson/TeslaInfotainment/ui/assets/volume2.png"
+                return "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/volume2.png"
         }
     }
 

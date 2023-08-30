@@ -30,7 +30,7 @@ Rectangle{
                 id:car //add degree
                 width: 30
                 fillMode: Image.PreserveAspectFit
-                source: "file:/home/jetson/TeslaInfotainment/ui/assets/car.png"
+                source: "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/car.png"
             }
         }
 
@@ -45,7 +45,7 @@ Rectangle{
         }
         width: parent.width/40
         fillMode: Image.PreserveAspectFit
-        source: (systemHandler.carLocked ? "file:/home/jetson/TeslaInfotainment/ui/assets/padlock.png" : "file:/home/jetson/TeslaInfotainment/ui/assets/padlock-unlock.png")
+        source: (systemHandler.carLocked ? "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/padlock.png" : "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/padlock-unlock.png")
         MouseArea{
             anchors.fill: parent
             onClicked: systemHandler.setCarLocked(!systemHandler.carLocked)
@@ -87,7 +87,7 @@ Rectangle{
         }
         width: parent.width/60
         fillMode: Image.PreserveAspectFit
-        source: "file:/home/jetson/TeslaInfotainment/ui/assets/user.png"
+        source: "file:/home/jetson/Desktop/Qt_Tesla_HU/TeslaInfotainment/ui/assets/user.png"
     }
 
     Text{

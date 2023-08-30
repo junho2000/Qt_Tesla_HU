@@ -11,6 +11,8 @@ Window {
     title: qsTr("Tesla Infotainment")
     //visibility: "FullScreen"
 
+
+
     RightScreen{
         id:rightScreen
     }
